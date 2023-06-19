@@ -6,7 +6,7 @@ def solution(k, dungeons):
     len_dungeons = len(dungeons)
 
     # 1
-    sequences = list(itertools.permutations([i for i in range(0, len_dungeons)], len_dungeons))
+    sequences = list(itertools.permutations([i for i in range(0, len_dungeons)]))
 
     # 2
     for i in range(len(sequences)):
