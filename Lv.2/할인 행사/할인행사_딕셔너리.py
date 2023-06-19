@@ -1,7 +1,5 @@
 def solution(want, number, discount):
     answer = 0
-    list_all_want = []
-
     dict_wishlist = {}
 
     for i in range(len(want)):
