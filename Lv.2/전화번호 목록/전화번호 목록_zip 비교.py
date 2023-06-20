@@ -7,9 +7,3 @@ def solution(phone_book):
             return False
 
     return answer
-
-
-if __name__ == '__main__':
-    phone_book = ["119", "97", "11954", "324", "114"]
-
-    solution(phone_book)
